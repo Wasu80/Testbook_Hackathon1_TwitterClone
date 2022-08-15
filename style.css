@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', serif;
+}
+
+.container{
+    display: flex;
+    width: 100vw;
+}
+
+.container .sidebar{
+    background-color: rgba(233, 233, 233, 0.589);
+}
+
+.sidebar li a{
+    text-decoration: none;
+    margin: 15px;
+}
+
+.sidebar li{
+    margin: 30px;
+    width: 12vw;
+    list-style-type: none;
+    font-size: 17px;
+    font-weight: 600;
+    text-align: left;
+    padding: 5px;
+    
+    
+}
+
+.sidebar img{
+    height: 50px;
+    margin: 25px;
+}
+
+.sidebar a:hover{
+    /* background-color: blue; */
+    color: rgb(0, 191, 255);
+}
+
+.middle{
+    
+    background-color: rgb(233, 233, 233);
+    margin: 5px;
+}
+
+.middle button{
+    position: absolute;
+    top: 200px;
+    right: 304px;
+    padding: 10px 20px 10px 20px; 
+    border-radius: 50px;
+    border: none;
+    font-weight: 600;
+    background-color: rgb(0, 153, 255);
+    color: white;
+    transition: 0.5s ease;
+}
+
+.middle button:hover{
+    background-color: rgba(0, 153, 255, 0.712);
+    transform: scale(1.1);
+}
+
+.middle textarea{
+    padding: 10px;
+    letter-spacing: 2px;
+}
+
+.post img{
+    margin-top: 8px;
+    width: 65%;
+    position: relative;
+    left: 176px;
+}
+
+.left{
+    background-color: rgb(241, 236, 236);
+    margin: 5px;
+}
+
+.left input{
+    background-color: rgb(207, 209, 211);
+    padding: 7px;
+    width: 100%;
+    border-radius: 50px;
+    border: none;
+    margin: 5px;
+    padding: 10px;
+    letter-spacing: 1.4px;
+}
+
+.left h3{
+    margin: 5px;
+}
